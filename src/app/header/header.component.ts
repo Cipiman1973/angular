@@ -29,14 +29,4 @@ export class HeaderComponent implements OnInit {
     this.visibilityChanged.emit(this.visibile);
   }
 
-  /* metoda neaplikována kvůli datalistu
-  printResults(): void {
-    let myVal: string;
-    for (const [key, value] of Object.entries(this.menu)) {
-      myVal = String(value).toLowerCase();
-      if (myVal.includes(this.search.toLowerCase())){
-        console.log(value);
-      }
-    }
-    */
 }
